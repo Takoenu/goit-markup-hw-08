@@ -1,0 +1,50 @@
+.about-section {
+  padding-bottom: 94px;
+}
+
+.about-section__headline {
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.about-section__list {
+  display: flex;
+  justify-content: center;
+}
+
+.about-section__item + .about-section__item {
+  margin-left: 30px;
+}
+
+.about-section__image {
+  display: block;
+}
+
+.about-section__thumb {
+  position: relative;
+}
+
+.about-section__copy {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  margin: 0;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  background-color: $secondary-background-color-80opacity;
+  color: $main-background-color;
+
+  font-weight: 700;
+  line-height: 1.14;
+}

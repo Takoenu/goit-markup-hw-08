@@ -1,0 +1,42 @@
+$primary-text-color: #757575;
+$title-text-color: #212121;
+$accent-color: #2196f3;
+$accent-color-90: rgba(33, 150, 243, 0.9);
+$secondary-accent-color: #188ce8;
+$main-background-color: #ffffff;
+$secondary-background-color: #2f303a;
+$secondary-background-color-80opacity: #2f303a80;
+$footer-text-color: #ffffff60;
+$footer-icons-background: #ffffff10;
+$footer-subscription-input-border: #ffffff30;
+$white-color: #ffffff;
+$button-background-color: #f5f4fa;
+$header-bottom-line: #ececec;
+$card-border-line: #eeeeee;
+$button-icon-grey: #afb1b8;
+$card-set-gap: 30px;
+$backdrop: #00000020;
+$close-icon-border: #00000010;
+$modal-input-border: #21212120;
+body {
+  color: $primary-text-color;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}

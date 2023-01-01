@@ -22,48 +22,69 @@
   </head>
   <body>
     <!--Header-->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container">
         <nav class="navigation">
           <a href="./index.html" class="logo"
             ><span class="logo__accent">Web</span>Studio</a
           >
-          <ul class="site-nav list">
-            <li class="site-nav__item">
-              <a
-                href="./index.html"
-                class="site-nav__link site-nav__link--current"
-                >Студія</a
-              >
-            </li>
-            <li class="site-nav__item">
-              <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
-            </li>
-            <li class="site-nav__item">
-              <a href="/" class="site-nav__link">Контакти</a>
-            </li>
-          </ul>
-          <ul class="contact list">
-            <li class="contact__item">
-              <a href="mailto:info@devstudio.com" class="contact__link">
-                <svg class="contact__icon" width="16" height="12">
-                  <use href="./img/sprite.svg#email"></use></svg>info@devstudio.com</a>
-            </li>
-            <li class="contact__item">
-              <a href="tel:+380961111111" class="contact__link"
-                ><svg class="contact__icon" width="10" height="16">
-                  <use href="./img/sprite.svg#smartphone"></use></svg>+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
+          <button type="button" 
+            class="menu-button" 
+            data-menu-btn
+            aria-expanded="false"
+            aria-controls="menu-container">
+            <svg width="40" height="40"> 
+              <use class="icon-menu__menu is-open" href="./img/sprite.svg#icon-menu"></use>
+              <use class="icon-cross__close" href="./img/sprite.svg#icon-close"></use> 
+            </svg>
+          </button>
+
+          <div class="nav-menu menu-container" data-menu id="menu-container">
+            
+            <ul class="site-nav list">
+              <li class="site-nav__item">
+                <a
+                  href="./index.html"
+                  class="site-nav__link site-nav__link--current"
+                  >Студія</a
+                >
+              </li>
+              <li class="site-nav__item">
+                <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
+              </li>
+              <li class="site-nav__item">
+                <a href="/" class="site-nav__link">Контакти</a>
+              </li>
+            </ul>
+            <ul class="contact list">
+              <li class="contact__item">
+                <a href="mailto:info@devstudio.com" class="contact__link contact__link--email">
+                  <svg class="contact__icon" width="14" height="10">
+                    <use href="./img/sprite.svg#email"></use></svg>info@devstudio.com</a>
+              </li>
+              <li class="contact__item">
+                <a href="tel:+380961111111" class="contact__link contact__link--phone"
+                  ><svg class="contact__icon" width="10" height="14">
+                    <use href="./img/sprite.svg#smartphone"></use></svg>+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+            <ul class="some-mobile__list list">
+                  <li class="some-mobile__item"><a class="some-mobile__link">Instagram</a></li>
+                  <li class="some-mobile__item"><a class="some-mobile__link">Twitter</a></li>
+                  <li class="some-mobile__item"><a class="some-mobile__link">Facebook</a></li>
+                  <li class="some-mobile__item"><a class="some-mobile__link">LinkedIn</a></li>
+            </ul>
+         
+          </div>
         </nav>
       </div>
-    </header> -->
+    </header>
 
     <!--Main-->
     <main>
       <!--Hero banner-->
-      <!-- <section class="hero-section">
+      <section class="hero-section">
         <div class="container">
           <h1 class="hero__headline">
             Ефективні рішення для <br />
@@ -73,7 +94,7 @@
             Замовити послугу
           </button>
         </div>
-      </section> -->
+      </section>
 
       <!--Features-->
       <section class="features-section">
@@ -136,7 +157,7 @@
       </section>
 
       <!--About-->
-      <!-- <section class="about-section">
+      <section class="about-section">
         <div class="container">
           <h2 class="about-section__headline">Чим ми займаємося</h2>
           <ul class="about-section__list list">
@@ -175,7 +196,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--Our team-->
       <section class="team-section">
@@ -629,5 +650,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

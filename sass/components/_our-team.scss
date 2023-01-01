@@ -67,13 +67,18 @@
   text-align: center;
 
   @media screen and (max-width: 767px) {
-    width: 450px;
-    height: 622px;
+    max-width: 450px;
+    max-height: 622px;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 354px;
     height: 536px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    height: 428px;
   }
 }
 
@@ -123,8 +128,10 @@
   font-size: 16px;
   line-height: 1.18;
 
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 10px;
+
+
 }
 
 .team-section__position {

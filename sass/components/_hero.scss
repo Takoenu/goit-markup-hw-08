@@ -20,19 +20,19 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/header_mobile.jpg");
+      url("../img/bcg-mobile-1x.jpg");
 
     @media screen and (min-device-pixel-ratio: 2),
       screen and (-webkit-min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      .hero-section {
+      .hero--overlay {
         background-image: linear-gradient(
             to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
           ),
-          url("../img/header_mobile@2x.jpg");
+          url("../img/bcg-mobile-2x.jpg");
       }
     }
   }
@@ -42,19 +42,19 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/header_tablet.jpg");
+      url("../img/bcg-tablet-1x.jpg");
 
     @media screen and (min-device-pixel-ratio: 2),
       screen and (-webkit-min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      .hero-section {
+      .hero--overlay {
         background-image: linear-gradient(
             to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
           ),
-          url("../img/header_tablet@2x.jpg");
+          url("../img/bcg-tablet-2x.jpg");
       }
     }
   }
@@ -66,19 +66,19 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../img/header_desktop.jpg");
+      url("../img/bcgpicture.jpg");
 
     @media screen and (min-device-pixel-ratio: 2),
       screen and (-webkit-min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      .hero-section {
+      .hero--overlay {
         background-image: linear-gradient(
             to right,
-            rgba(0, 0, 0, 0.4),
+            rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
           ),
-          url("../img/header_desktop@2x.jpg");
+          url("../img/bcgpicture-2x.jpg");
       }
     }
   }
